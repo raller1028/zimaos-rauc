@@ -1,10 +1,10 @@
-version: v0.4.9.4
+version: v1.0.1
 release_notes: >
-  ## [0.4.9.4]\n### Files:\n- Fixed the issue where thumbnail generation failed for images with spaces in their names.\n- Corrected errors in the Paste-Overwrite functionality.\n### System:\n- Resolved the problem of partition mounting failure during dd installation.\n- Added a new installation method using USB installer.img.\n- Introduced support for Thunderbolt interface.\n- Added nvme-cli.\n
+  ## [1.0.1]\n### Files:\n- Fixed the issue where thumbnail generation failed for images with spaces in their names.\n- Corrected errors in the Paste-Overwrite functionality.\n### System:\n- Resolved the problem of partition mounting failure during dd installation.\n- Added a new installation method using USB installer.img.\n- Introduced support for Thunderbolt interface.\n- Added nvme-cli.\n
 mirrors:
-  - https://github.com/IceWhaleTech
   - https://casaos.oss-cn-shanghai.aliyuncs.com/IceWhaleTech
+  - https://github.com/raller1028
 packages:
-  - path: /zimaos-rauc/releases/download/0.4.9.4/zimaos_zimacube-0.4.9.4.raucb
+  - path: /zimaos-rauc/releases/download/1.0.1/zimaos_zimacube-1.0.1.raucb
     architecture: amd64
-checksums: /zimaos-rauc/releases/download/0.4.9.4/checksums.txt
+checksums: /zimaos-rauc/releases/download/1.0.1/checksums.txt
